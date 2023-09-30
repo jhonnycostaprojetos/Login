@@ -60,7 +60,7 @@ export default function Home() {
     <div className='flex h-screen items-center justify-center'>
       <div className='m-10 w-full md:w-1/2 lg:w-1/3'>
         <Logo />
-        <Title title='Integração HUB' />
+        <Title title='Entre com a sua conta' />
         <div className='flex relative flex-col mt-4'>
           <form action="">
             <LoginInput
