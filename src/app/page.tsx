@@ -50,7 +50,7 @@ export default function Home() {
     }
   }
 
-  function displayError(msg, tempoEmSegundos = 5) {
+  function displayError(msg: any, tempoEmSegundos = 5) {
     setError(msg)
     setTimeout(() => setError(null), tempoEmSegundos * 1000)
   }

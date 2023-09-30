@@ -1,8 +1,8 @@
 import { IconeLua, IconeSol } from "../Icons"
 
 interface ButtonChangeThemeProps {
-  theme: string,
-  changeTheme: () => void
+  theme?: string,
+  changeTheme?: () => void
 }
 
 export default function ButtonChangeTheme(props: ButtonChangeThemeProps) {
